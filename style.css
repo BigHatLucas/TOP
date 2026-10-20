@@ -1,0 +1,33 @@
+header{
+    border: solid;
+    background-color: #77006d;
+    color:aqua;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#logo{
+    background-color: black;
+    color:yellow;
+    position: absolute;
+    font-size: large;
+    font-weight: bold;
+    top:0%;
+    left:0%;
+    margin: 2%;
+    padding: 1%;
+}
+#links{
+    background-color: blueviolet;
+    color: yellow;
+    position: relative;
+    top:0%;
+    right: 0%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left:50%;
+    padding-left: 2%;
+}
