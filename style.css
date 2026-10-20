@@ -1,3 +1,8 @@
+*{
+    background: linear-gradient(black,rgb(65, 64, 64),rgb(102, 102, 102));
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+}
 header{
     border: solid;
     background-color: #77006d;
@@ -35,6 +40,8 @@ header{
 #image{
     display: flex;
     flex-direction: row;
+    padding: auto;
+    margin:1%;
      }
 
 #headline{
@@ -47,4 +54,39 @@ header{
     float: left;
     margin-right:2%;
     padding: 4px;
+}
+body{
+    text-align: center;
+}
+.coninfo{
+    color:yellow;
+    background-color: black;
+    padding: 2%;
+}
+
+.conA{
+    display:flex;
+    justify-content: center;
+    gap:4%;
+}
+
+.item{
+    border: dashed;
+    background-color: #77006d;
+    max-width: 50px;
+}
+
+.text{
+    border: solid;
+    background-color: black;
+    color:yellow;
+}
+.conB{
+    display: flex;
+    flex-direction: column;
+}
+#qo{
+    font-weight: bold;
+    position: sticky;
+    right: 0%;
 }
