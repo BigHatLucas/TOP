@@ -32,3 +32,37 @@ body {
     display: flex; 
     justify-content: space-between;
 }
+
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titel{
+color: #F9FAF8;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+button{
+    width: 100px;
+}
+
+
+.placeholder{
+
+    border:solid;
+    background-color: aqua;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
