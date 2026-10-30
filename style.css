@@ -24,7 +24,9 @@ body {
     flex-direction: row;
 }
 .logo{
-   
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .link{
@@ -42,6 +44,7 @@ body {
 }
 
 .titel{
+font-family: Roboto;
 color: #F9FAF8;
 display: flex;
 flex-direction: column;
@@ -65,4 +68,46 @@ button{
     justify-content: center;
     align-items: center;
     margin: 25px;
+}
+
+.container{
+font-family: Roboto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.greyfont{
+    color: #1F2937;
+}
+
+.conback{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quot{
+ font-weight: bold;   
+ text-align: end;
+}
+
+.action{
+    background-color: blue;
+    color: #F9FAF8;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
