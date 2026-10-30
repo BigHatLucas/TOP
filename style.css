@@ -101,6 +101,7 @@ align-items: center;
 .quot{
  font-weight: bold;   
  text-align: end;
+ padding: 25px;
 }
 
 .action{
@@ -110,4 +111,6 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: end;
+    padding: 25px;
+    margin: 25px;
 }
